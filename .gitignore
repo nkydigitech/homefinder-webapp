@@ -25,3 +25,16 @@ terraform-module/.terraform.tfstate/*
  terraform-script/.terraform/*
  
 
+
+# Terraform state and secrets - never commit these
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.backup
+*backup
+.terraform/
+*.pem
+id_rsa*
+id_ed25519*
+*.key
+mylogs*
